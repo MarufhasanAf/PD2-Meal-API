@@ -1,0 +1,22 @@
+.search-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.search {
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 20px;
+}
+.submit-btn {
+  padding: 7px 20px;
+  border-radius: 4px;
+  background-color: rgb(246, 245, 245);
+  color: rgba(62, 60, 60, 0.879);
+  font-size: 20px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
