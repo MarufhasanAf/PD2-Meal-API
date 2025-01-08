@@ -14,9 +14,39 @@
 .submit-btn {
   padding: 7px 20px;
   border-radius: 4px;
-  background-color: rgb(246, 245, 245);
-  color: rgba(62, 60, 60, 0.879);
+  background-color: rgb(252, 94, 3);
+  color: white;
   font-size: 20px;
-  border: 2px solid gray;
+  border: 2px solid rgb(255, 0, 0);
   cursor: pointer;
+}
+.cart-main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-container {
+  margin: 15px;
+  width: 300px;
+  box-shadow: 4px 4px 4px 4px gray;
+  border-radius: 10px;
+  text-align: center;
+}
+.product-title {
+  padding: 15px 0px;
+  font-size: 25px;
+}
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.details-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px gray;
+  margin-bottom: 40px;
+  display: none;
 }
